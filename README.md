@@ -2,12 +2,10 @@
 
 ## What's this ?
 - Slackbot for parrot
----
 
 ## Requirements
 - Node.js v8.11.2
 - npm v5.6.0
----
 
 ## Installation
 ### Windows
@@ -19,11 +17,9 @@
 
 ### Mac or Linux
 - Same as Windows
----
 
 ## Functional Description
 - TBC
----
 
 ## Develop Guideline
 ### Develop Flow
