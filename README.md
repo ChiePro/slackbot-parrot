@@ -9,7 +9,19 @@
 - npm v5.6.0
 ---
 
-## Functions
+## Installation
+### Windows
+  1. clone this repository<br>
+    `git clone https://github.com/Chiebukuro-developers/slackbot-parrot.git`
+
+  1. run parrot.js<br>
+    `node parrot.js`
+
+### Mac or Linux
+- Same as Windows
+---
+
+## Functional Description
 - TBC
 ---
 
