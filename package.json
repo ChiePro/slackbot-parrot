@@ -2,13 +2,13 @@
   "name": "parrotbot",
   "version": "1.0.0",
   "description": "This bot is post a Parrot-Fortune-Telling.",
-  "main": "parrot.js",
+  "main": "index.js",
   "dependencies": {
     "slack": "^11.0.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node parrot.js"
+    "test": "node ./src/index.js"
   },
   "repository": {
     "type": "git",
