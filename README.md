@@ -1,8 +1,90 @@
-# Parrot
-オウム系botとかのリポジトリ作りました。ごめんなさい。
+# README
 
-動作方法はNode.jsをインストールして以下のコマンドです。
+## What's this ?
+- Slackbot for parrot
+---
 
+## Requirements
+- Node.js v8.11.2
+- npm v5.6.0
+---
+
+## Functions
+- TBC
+---
+
+## Develop Guideline
+### Develop Flow
+- please develop follow the under work procedure
+
+  1. Create a issue or Select a issue
+  1. Create branch follow this guideline
+  1. Resolve issue in local environment
+  1. Create Merge Request
+  1. If pointed out by Master, fix codes
+  1. Master gonna Merge
+  1. Loop from first
+
+### Commit Guideline
+- please follow the commit format when you commit
+
+#### Commit Format
+When you merged other branch
 ```
-node parrot.js
+[#[Issue No] merge] origin/[Branch name]
+```
+
+Others
+```
+[#[Issue No] [Commit type]] [Commit title]
+```
+
+#### Issue No
+- please write issue no
+
+#### Branch name
+- please write branch name to be merge
+
+#### Commit types
+- `feat`: when you add new handler and so on
+- `fix`: when you fix bug
+- `doc`: when you edit document or add new document
+- `comment`: when you make changes comments in code
+- `refactor`: when you make changes existing code other than `comment`
+- `perf`: when you make changes codes for increased performance
+- `merge`: when you merged other branch
+- `chore`: others
+
+#### Commit title
+- please write the brief of commit
+
+#### example
+When you merged other branch
+```
+[#1 merge] origin/master
+```
+
+Others
+```
+[#1 style] changed logo img source
+```
+
+
+### Create Branch Guideline
+- please follow the branch name format when you create new branch
+
+#### Banch name Format
+```
+#[Issue No]-[Branch name]
+```
+
+#### Issue No
+- please write issue no
+
+#### Branch name
+- please write appropriate branch name
+
+#### example
+```
+#1-set-ip-when-check-in
 ```
