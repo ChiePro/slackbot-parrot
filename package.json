@@ -1,0 +1,23 @@
+{
+  "name": "parrotbot",
+  "version": "1.0.0",
+  "description": "This bot is post a Parrot-Fortune-Telling.",
+  "main": "parrot.js",
+  "dependencies": {
+    "slack": "^11.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node parrot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chiebukuro-developers/slackbot-parrot.git"
+  },
+  "author": "regpon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chiebukuro-developers/slackbot-parrot/issues"
+  },
+  "homepage": "https://github.com/Chiebukuro-developers/slackbot-parrot#readme"
+}
