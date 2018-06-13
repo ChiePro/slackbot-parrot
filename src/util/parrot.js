@@ -1,7 +1,7 @@
 import { PARROTS } from '../consts/parrot';
 
 export const getRandomParrot = () => {
-  return PARROTS[Math.floor(Math.random() * (parrots.length))]
+  return PARROTS[Math.floor(Math.random() * (PARROTS.length))]
 };
 
 export const getLuckParrot = (parrot) => {

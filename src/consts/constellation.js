@@ -1,5 +1,5 @@
 //星座定義
-const ZODIAC_SIGN = [
+export const ZODIAC_SIGN = [
   'おひつじ座',
   'おうし座',
   'ふたご座',

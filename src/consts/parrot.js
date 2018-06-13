@@ -1,4 +1,4 @@
-const PARROTS = [
+export const PARROTS = [
   ':angel_parrot:',
   ':angry_parrot:',
   ':aussie_parrot:',

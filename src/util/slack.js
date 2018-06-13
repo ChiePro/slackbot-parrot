@@ -8,7 +8,7 @@ export const getHoroscope = () => {
   //占い用のコメント
   postMsg += '--------------------------------\n\r';
 
-  for (constellation of ZODIAC_SIGN) {
+  for (const constellation of ZODIAC_SIGN) {
     postMsg += `${constellation} の今日のラッキーオウムは ${getLuckParrot(getRandomParrot())}\n\r`;
   }
 
