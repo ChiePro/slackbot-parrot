@@ -9,6 +9,8 @@
 
 ## Installation
 ### Windows
+  0. install the emoji of parrot
+
   1. clone this repository<br>
     `git clone https://github.com/Chiebukuro-developers/slackbot-parrot.git`
 
@@ -16,7 +18,7 @@
     `npm install`
 
   1. run parrot.js<br>
-    `node parrot.js`
+    `npm run start`
 
 ### Mac or Linux
 - Same as Windows
